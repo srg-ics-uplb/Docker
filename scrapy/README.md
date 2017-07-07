@@ -1,12 +1,12 @@
 # Scrapy 
     
-`docker build -t srg-ics-uplb/scrapy .`
+`$sudo docker build -t srg-ics-uplb/scrapy .`
 
-`docker run -v ~/SourceCodeDirectory:/opt/dev -it srg-ics-uplb/scrapy/bin/bash`
+`$sudo docker run -v ~/SourceCodeDirectory:/opt/dev -it srg-ics-uplb/scrapy /bin/bash`
 
-`docker run -v ~/SourceCodeDirectory:/opt/dev -it -d srg-ics-uplb/scrapy`
+`$sudo docker run -v ~/SourceCodeDirectory:/opt/dev -it -d srg-ics-uplb/scrapy`
 
-`docker ps`
+`$sudo docker ps`
 
-`docker attach CONTAINER_ID`
+`sudo docker attach CONTAINER_ID`
 

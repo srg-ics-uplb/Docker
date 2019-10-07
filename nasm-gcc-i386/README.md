@@ -4,7 +4,7 @@
 
 `$docker-compose run nasm-gcc`
 
-### Assemble
+### Assemble, Link, Execute
 
 `#nasm -f elf -F dwarf -g hello.asm`
 
@@ -12,3 +12,6 @@
 
 `#./hello.exe`
 
+### Debug
+
+`#gdb ./hello.exe`

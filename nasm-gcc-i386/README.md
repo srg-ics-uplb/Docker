@@ -1,3 +1,4 @@
+## 32-bit Assembly Programming
 
 ### Start container
 
@@ -6,6 +7,8 @@
 ### Assemble
 
 `#nasm -f elf -F dwarf -g hello.asm`
+
 `#ld -ohello.exe hello.o`
+
 `#./hello.exe`
 
